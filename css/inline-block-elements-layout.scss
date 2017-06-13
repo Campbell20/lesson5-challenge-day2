@@ -1,0 +1,192 @@
+---
+---
+
+#container {
+	display: block;
+	height: 100%;
+	margin: 0 auto;
+	width: 75%;
+}
+
+header, footer {
+	background-color: #99BEC3;
+	border: 1px solid #88A9AD;
+}
+
+header {
+	margin-bottom: 1.2rem;
+	min-height: 10rem;
+	padding: .75rem 1.5%;
+	text-align: left;
+}
+
+nav, section {
+	display: inline-block;
+	min-height: 10rem;
+	vertical-align: top;
+}
+
+nav {
+	background-color: #8B7F97;
+	border: 1px solid #70687A;
+	min-height: 40rem;
+	padding: 1rem 1%;
+	text-align: center;
+	width: 20%;
+}
+
+
+section {
+	background-color: #C9D3D1;
+	border: 1px solid #B2BAB8;
+	// margin-left: 1.35%;
+	padding: 1.5rem 1.7%;
+	text-align: left;
+	width: 78.65%;
+}
+
+section div {
+	background-color: #94A5B3;
+	border: 1px solid #7A8893;
+}
+
+.featured_story {
+	min-height: 27rem;
+	padding: .75rem 1.5%;
+	text-align: left;
+}
+
+#story_container {
+	background-color: transparent;
+	border: 0;
+}
+
+.story {
+	display: inline-block;
+	margin-right: 1.46%;
+	margin-top: 1rem;
+	min-height: 13.5rem;
+	text-align: center;
+	width: 23.9%;
+}
+
+.story:nth-of-type(4), .story:nth-of-type(8) {
+	margin-right: 0px;
+}
+
+footer {
+	font-size: 87%;
+	margin-top: 1.2rem;
+	min-height: 7rem;
+	padding: .75rem 1.5%;
+	text-align: center;
+}
+
+@media all and (max-width: 1800px) {	
+	.story {
+		margin-right: 1.5%;
+		width: 23.85%;
+	}
+}
+
+@media all and (max-width: 1700px) {
+	section {
+		// margin-left: 1.9%;
+		padding: 1.5rem 2%;
+		width: 78.1%;
+	}
+	
+	.story {
+		margin-right: 2.1%;
+		width: 23.39%;
+	}
+}
+
+@media all and (max-width: 1400px) {
+	nav {
+		width: 21.5%;
+	}
+
+	section {
+		// margin-left: 2.2%;
+		width: 76.3%;
+	}
+	
+	.story {
+		margin-right: 2.6%;
+		width: 48.7%;
+	}	
+	
+	section div:nth-of-type(even) {
+		margin-right: 0;
+	}
+}
+
+@media all and (max-width: 1200px) {
+	nav {
+		width: 21.5%;
+	}
+
+	section {
+		// margin-left: 2.5%;
+		padding: 1.2rem 2.5%;
+		width: 76%;
+	}
+	
+	.story {
+		margin-right: 3.3%;
+		width: 48.3%;
+	}	
+	
+	section div:nth-of-type(even) {
+		margin-right: 0;
+	}
+}
+
+@media all and (max-width: 1000px) {
+	
+	nav {
+		margin-bottom: 1.2rem;
+		margin-right: 0;
+		min-height: 20rem;
+		width: 100%;
+	}
+
+	section {
+		margin-left: 0;
+		padding: 1rem;
+		width: 100%;
+	}
+	
+	.story {
+		margin-right: 3.5%;
+		width: 48.2%;
+	}	
+	
+	section div:nth-of-type(even) {
+		margin-right: 0;
+	}
+}
+
+@media all and (max-width: 700px) {
+	nav {
+		margin-bottom: 1.2rem;
+		margin-right: 0;
+		min-height: 20rem;
+		width: 100%;
+	}
+
+	section {
+		padding: 1rem;
+		width: 100%;
+	}
+	
+	.featured_story {
+		width: 100%;
+	}
+	
+	.story {
+		margin-right: 0;
+		width: 100%;
+	}
+}

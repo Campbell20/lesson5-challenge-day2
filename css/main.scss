@@ -1,0 +1,39 @@
+---
+---
+
+
+body * {
+	box-sizing: border-box;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: inherit;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: baseline;
+}
+
+body {
+	height: 100%;
+	margin: 0px;
+}
+
+h1, h2, h3, h4 {
+	color: #333;
+}
+
+h1 {
+	font-size: 1.4rem;
+}
+
+h2 {
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
+h4{
+	font-size: 1.1rem;
+}

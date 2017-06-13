@@ -1,0 +1,31 @@
+---
+---
+
+
+.top-nav {
+    // position: fixed;
+    // background-color: white;
+    width: 100%;
+    font-size: 30rem;
+    font-family: Oxygen;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-top ul {
+    margin:0;
+    padding:0;
+    color: #353535;
+}
+    
+.top-nav ul>li {
+    display: inline;
+    border-right: .5rem solid black;
+    padding-left: 1rem;
+}
+
+.top-nav li:last-child {
+    border-right: none;
+}
+    
