@@ -39,7 +39,7 @@ nav {
 section {
 	background-color: #C9D3D1;
 	border: 1px solid #B2BAB8;
-	// margin-left: 1.35%;
+	margin-left: .35%;
 	padding: 1.5rem 1.7%;
 	text-align: left;
 	width: 78.65%;
@@ -91,8 +91,8 @@ footer {
 
 @media all and (max-width: 1700px) {
 	section {
-		// margin-left: 1.9%;
-		padding: 1.5rem 2%;
+		margin-left: 1%;
+		padding: 1.5 rem 2%;
 		width: 78.1%;
 	}
 	
@@ -108,7 +108,7 @@ footer {
 	}
 
 	section {
-		// margin-left: 2.2%;
+		margin-left: 10%;
 		width: 76.3%;
 	}
 	
@@ -128,7 +128,7 @@ footer {
 	}
 
 	section {
-		// margin-left: 2.5%;
+		margin-left: 2.5%;
 		padding: 1.2rem 2.5%;
 		width: 76%;
 	}
